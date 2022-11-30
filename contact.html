@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birding Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="photos/logo1.png">
+                <h1>Isle of Birds</h1></a>
+            </div>
+        </header>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="slider2.html">Featured Projects</a></li>
+                <li><div class="dropdown">
+                    <button class="dropdownbtn"><a href="#">Portfolio</a></button>
+                        <div class="dropdown-content">
+                            <a href="index.html">Birds</a>
+                            <a href="#">Landscapes</a>
+                            <a href="#">Miscellaneous</a>
+                        </div>
+                    </div></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+        <table align="center" width="100%"><form>
+            <tr align="center">
+                <td><label for="frame">Full Name</label></td>
+                <td><input type="text" name="frame" id="frame"></td>
+            </tr>
+            <tr align="center">
+                <td><label for ="email"> Email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr align="center">
+                <td><label for="newsletter">Subscribe to our newsletter</label></td>
+                <td><input type="checkbox" name="newsletter" id="newsletter" value="yes">Yes</td>
+            </tr>
+            <tr align="center">
+                <td><label for="pswd">Enter password</label></td>
+                <td><input type="password" requiredmaxlength="10" name="pswd" id="pswd"></td>
+            </tr>
+            <tr align="center">
+                <td><label for="msg">Message</label></td>
+                <td><textarea rows="10"></textarea></td>
+            </tr>
+        </form></table>
+        <button class="subbtn"><a href="#">Subscribe &#8594</a></button></div>
+        <!--<p id="p1">JavaScript can change me!</p>
+        <button type="button" onclick="document.getElementById('p1').innerHTML='Hello world'">Your response has been successfully submitted!</button>-->
+</body>
+</html>

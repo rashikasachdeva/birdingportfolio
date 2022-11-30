@@ -1,0 +1,111 @@
+*
+.container{
+    font-family: 'Cormorant Garamond';
+    font-size: 22px;
+}
+/* SITE NAVIGATION */
+.site-nav li{
+    list-style:none;
+    float:right;
+    
+   margin-right: 70px;
+}
+.site-nav ul{
+    padding:0;
+    margin-top:10px;
+
+}
+.site-nav a{
+display: block;
+text-decoration: none;
+font-weight:bold;
+color:rgba(17, 131, 61, 0.856);
+padding:10px 20px;
+
+}
+.site-nav a:hover{
+    background-color:  rgba(148, 241, 172, 0.87);
+}
+.dropdown{
+    display:inline-block;
+    position:relative;
+
+}
+
+.dropdownbtn{
+    display: block;
+    border:none;
+    font-family: 'Cormorant Garamond';
+    text-decoration:none;
+    background-color: white;
+    font-size: 22px;
+    font-weight:350;
+    color:rgba(17, 131, 61, 0.856);
+    padding:1px 20px;
+}
+.dropdownbtn a:hover{
+    background-color:  rgba(148, 241, 172, 0.87);
+    display:block;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    font-size: 20px;
+    z-index:9999;
+    background-color: white;
+    width:100%;
+    text-decoration: none;
+    font-weight:350;
+    color:rgba(17, 131, 61, 0.856);
+    padding:0px 0px;
+}
+.dropdown-content a:hover{
+    background-color:  rgba(148, 241, 172, 0.87);
+    display:block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.logo img{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:80px;
+}
+.logo h1{
+    font-size:30px;
+    color:rgba(17, 131, 61, 0.856);
+    font-style: italic;
+    position: absolute;
+    top:10px;
+    left:100px;
+    font-weight: bold;
+}
+table{
+    width:60%;
+    padding: 20px;
+}
+
+table tr{
+    background-color:  rgba(148, 241, 172, 0.87);
+}
+table td textarea{
+    padding:20px;
+    width:70%;
+}
+.subbtn{
+    color:white;
+    font-size: 14px;
+    position:absolute;
+    right:600px;
+    width:120px;
+    height:47px;
+    background-color:rgba(17, 131, 61, 0.856);
+    border-radius: 4%;
+    border:none;
+    padding-right: 0px;
+    padding-left: 8px;
+}
+.subbtn a{
+    text-decoration-line: none;
+    color:white;
+}
